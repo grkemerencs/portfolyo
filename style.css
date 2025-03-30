@@ -1,0 +1,32 @@
+.header {
+    width: 100%;
+    background-color: #f8f9fa;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.header-link {
+    display: block;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+    color: #495057;
+    transition: all 0.3s ease;
+}
+
+.header-link:hover {
+    background-color: #e9ecef;
+    color: #212529;
+}
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap');
+
+.nunito-sans {
+  font-family: 'Nunito Sans', sans-serif;
+  font-size: medium;
+}
+
+.nunito-sans-expanded {
+    font-family: 'Nunito Sans', sans-serif;
+    font-stretch: expanded;
+    font-style: initial;
+    font-variation-settings: 'wdth' 125;
+  }
